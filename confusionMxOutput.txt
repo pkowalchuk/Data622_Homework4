@@ -1,0 +1,288 @@
+[[1]]
+Confusion Matrix and Statistics
+
+                       
+bag_class_probabilities setosa versicolor virginica
+             setosa         24          0         0
+             versicolor      0         25         3
+             virginica       0          2        21
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8998         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.9259           0.8750
+Specificity                   1.00            0.9375           0.9608
+Pos Pred Value                1.00            0.8929           0.9130
+Neg Pred Value                1.00            0.9574           0.9423
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3333           0.2800
+Detection Prevalence          0.32            0.3733           0.3067
+Balanced Accuracy             1.00            0.9317           0.9179
+
+[[2]]
+Confusion Matrix and Statistics
+
+            
+             setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         24         2
+  virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[3]]
+Confusion Matrix and Statistics
+
+                    
+gbm_predicted_class3 setosa versicolor virginica
+          setosa         24          0         0
+          versicolor      0         24         2
+          virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[4]]
+Confusion Matrix and Statistics
+
+            
+             setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         26         0
+  virginica       0          1        24
+
+Overall Statistics
+                                          
+               Accuracy : 0.9867          
+                 95% CI : (0.9279, 0.9997)
+    No Information Rate : 0.36            
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.98            
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.9630           1.0000
+Specificity                   1.00            1.0000           0.9804
+Pos Pred Value                1.00            1.0000           0.9600
+Neg Pred Value                1.00            0.9796           1.0000
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3467           0.3200
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9815           0.9902
+
+[[5]]
+Confusion Matrix and Statistics
+
+            
+rf_pred      setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         24         2
+  virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[6]]
+Confusion Matrix and Statistics
+
+                         
+rpart_class_probabilities setosa versicolor virginica
+               setosa         24          0         0
+               versicolor      0         24         2
+               virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[7]]
+Confusion Matrix and Statistics
+
+            
+vglm_pred    setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         24         2
+  virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[8]]
+Confusion Matrix and Statistics
+
+            
+xgb_pred4    setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         24         2
+  virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
+[[9]]
+Confusion Matrix and Statistics
+
+            
+xgb_pred5    setosa versicolor virginica
+  setosa         24          0         0
+  versicolor      0         24         2
+  virginica       0          3        22
+
+Overall Statistics
+                                         
+               Accuracy : 0.9333         
+                 95% CI : (0.8512, 0.978)
+    No Information Rate : 0.36           
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8999         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                   1.00            0.8889           0.9167
+Specificity                   1.00            0.9583           0.9412
+Pos Pred Value                1.00            0.9231           0.8800
+Neg Pred Value                1.00            0.9388           0.9600
+Prevalence                    0.32            0.3600           0.3200
+Detection Rate                0.32            0.3200           0.2933
+Detection Prevalence          0.32            0.3467           0.3333
+Balanced Accuracy             1.00            0.9236           0.9289
+
